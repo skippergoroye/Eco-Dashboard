@@ -66,7 +66,6 @@ export default function Body() {
         {activeTab === 'Ideas' && (
           <div className="flex flex-col lg:flex-row gap-10">
             <h1>Ideas Here</h1>
-           
           </div>
         )}
       </div>
