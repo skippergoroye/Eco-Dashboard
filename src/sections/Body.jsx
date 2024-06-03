@@ -12,7 +12,7 @@ export default function Body() {
             <p>Ideas</p>
           </div> 
       <div className="flex flex-col lg:flex-row gap-10">
-        <div className="flex-1 px-6 py-8 bg-gray-50 rounded-md shadow sm:px-10">
+        <div className="flex-1 px-6 py-8 rounded-md shadow sm:px-10">
           {/* <div className="flex gap-4 sm:gap-10 border-b border-[#ACB2B0] cursor-pointer">
             <p>Problems</p>
             <p>Projects</p>
@@ -24,7 +24,7 @@ export default function Body() {
             ))}
           </div>
         </div>
-        <div className="w-full lg:w-1/4 bg-white rounded-lg shadow-2xl text-center p-4">
+        <div className="w-full lg:w-1/4 bg-white rounded-lg shadow-2xl text-center p-6">
           <div className="flex flex-col items-center">
             <h1 className="w-[100px] text-center text-xl">
               Upgrade to <span className="font-bold">Partner</span>
@@ -37,7 +37,7 @@ export default function Body() {
               <ListItem>Exercitation veniam consequat sunt</ListItem>
               <ListItem>consequat duis enim velit mollit.</ListItem>
             </div>
-            <button className="mt-4 bg-[#1DB559] text-white px-2 py-2 rounded-lg">
+            <button className="mt-4 bg-[#1DB559] text-white px-2 py-y rounded-lg">
               Upgrade Plan
             </button>
             <img src={Globe} alt="globe" />

@@ -197,9 +197,9 @@ export default function Hero() {
                 </div>
                 <span className="text-sm md:text-base lg:text-lg">Lagos, Nigeria</span>
               </div>
-              <button className="px-4 py-2 bg-blue-500 text-white rounded mt-2 md:mt-0">Edit profile</button>
+              <button className="px-4 py-2 text-white rounded-full mt-2 md:mt-0 bg-[#1DB559]">Edit profile</button>
             </div>
-            <p className="text-sm md:text-base lg:text-lg">Passionate data enthusiast unraveling hidden truths, unlocking possibilities through analytics, visualization, and the art of data. Empowering informed decisions, driving business success. #DataEnthusiast #AnalyticsNinja</p>
+            <p className="text-sm md:text-base lg:text-md">Passionate data enthusiast unraveling hidden truths, unlocking possibilities through analytics, visualization, and the art of data. Empowering informed decisions, driving business success. #DataEnthusiast #AnalyticsNinja</p>
           </div>
         </div>
 
