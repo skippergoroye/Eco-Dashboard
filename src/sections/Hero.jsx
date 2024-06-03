@@ -157,8 +157,8 @@ export default function Hero() {
     labels: ['Environment', 'Community', 'Organization'],
     datasets: [
       {
-        data: [33, 33, 34],
-        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
+        data: [20, 33, 34],
+        backgroundColor: ['#32D272', '#2EA2CF', '#F67218'],
         hoverBackgroundColor: ['#FF6384', '#36A2EB', '#FFCE56']
       }
     ]
@@ -175,31 +175,31 @@ export default function Hero() {
         }
       },
       centerText: {
-        text: '75%',
-        font: 'bold 24px Arial',
-        color: '#000'
+        text: 'Community Ambassador',
+        font: '12px Arial',
+        color: '#2EA2CF'
       }
     },
-    cutout: '70%' // Controls the size of the doughnut hole
+    cutout: '65%' // Controls the size of the doughnut hole
   };
 
   return (
-    <section className="px-8 lg:px-16 py-12 lg:py-24 mx-auto max-w-[1440px] bg-gray-50">
+    <section className="px-8 lg:px-16 py-12 lg:py-24 mx-auto max-w-[1440px] bg-gray-50 ">
       <div className="flex flex-col lg:flex-row gap-10">
         <div className="flex flex-col md:flex-row gap-6">
-          <img src={HeroImage} alt="hero-image" className="w-full md:w-auto" />
+          <img src={HeroImage} alt="hero-image" className="w-full md:w-[200px] lg:-mt-36" />
           <div className="flex flex-col items-start gap-4 mt-4 md:mt-0 w-full">
             <div className="flex flex-col md:flex-row items-start md:items-center gap-1 w-full justify-between">
               <div className="flex flex-col">
                 <div className="flex flex-col md:flex-row items-start md:items-center gap-1">
                   <h1 className="text-lg md:text-xl lg:text-2xl">Micheal John</h1>
-                  <span className="text-sm md:text-base lg:text-lg">~Leader</span>
+                  <span className="text-sm text-[#1DB559]">~Leader</span>
                 </div>
-                <span className="text-sm md:text-base lg:text-lg">Lagos, Nigeria</span>
+                <span className="text-sm text-[#292D32]">Lagos, Nigeria</span>
               </div>
               <button className="px-4 py-2 text-white rounded-full mt-2 md:mt-0 bg-[#1DB559]">Edit profile</button>
             </div>
-            <p className="text-sm md:text-base lg:text-md">Passionate data enthusiast unraveling hidden truths, unlocking possibilities through analytics, visualization, and the art of data. Empowering informed decisions, driving business success. #DataEnthusiast #AnalyticsNinja</p>
+            <p className="text-sm md:text-base lg:text-lg text-[#474747]">Passionate data enthusiast unraveling hidden truths, unlocking possibilities through analytics, visualization, and the art of data. Empowering informed decisions, driving business success. <span className='text-[#1DB559]'>#DataEnthusiast #AnalyticsNinja</span></p>
           </div>
         </div>
 
