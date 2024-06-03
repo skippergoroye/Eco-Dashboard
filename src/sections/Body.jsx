@@ -5,14 +5,19 @@ import Globe from "../assets/globe.svg"
 
 export default function Body() {
   return (
-    <section className="px-4 sm:px-8 lg:px-16 py-4 mx-auto max-w-[1440px]">
-      <div className="flex flex-col lg:flex-row gap-10">
-        <div className="flex-1 px-6 py-8 bg-white rounded-md shadow sm:px-10">
-          <div className="flex gap-4 sm:gap-10 border-b border-[#ACB2B0] cursor-pointer">
+    <section className="px-4 sm:px-8 lg:px-16 py-4 mx-auto max-w-[1440px] bg-gray-50">
+      <div className="flex gap-4 sm:gap-10 border-b border-[#ACB2B0] cursor-pointer mb-4">
             <p>Problems</p>
             <p>Projects</p>
             <p>Ideas</p>
-          </div>
+          </div> 
+      <div className="flex flex-col lg:flex-row gap-10">
+        <div className="flex-1 px-6 py-8 bg-gray-50 rounded-md shadow sm:px-10">
+          {/* <div className="flex gap-4 sm:gap-10 border-b border-[#ACB2B0] cursor-pointer">
+            <p>Problems</p>
+            <p>Projects</p>
+            <p>Ideas</p>
+          </div> */}
           <div>
             {Community.map((com) => (
               <CommunityCard key={com.goal} {...com} />
