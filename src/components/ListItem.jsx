@@ -1,15 +1,12 @@
-import Check from "../assets/tick-circle.svg"
+import Check from "../assets/tick-circle.svg";
 
-
-
-
-export default function ListItem({ children}) {
+export default function ListItem({ children }) {
   return (
     <ul>
-        <li className={`flex flex-row text-sm text-[#3D433F]`}>
-            <img src={Check} alt="list icon" />
-            {children}
-        </li>
+      <li className={`flex flex-row text-sm text-[#3D433F]`}>
+        <img src={Check} alt="list icon" />
+        {children}
+      </li>
     </ul>
-  )
+  );
 }

@@ -1,6 +1,6 @@
 import NavLogo from "../assets/nav-logo.svg";
 import { ChevronDown } from "lucide-react";
-import Avater from "../assets/Avatar-Image.svg"
+import Avater from "../assets/Avatar-Image.svg";
 
 export default function Navbar() {
   return (
@@ -26,11 +26,9 @@ export default function Navbar() {
               <p>Project 24</p>
               <div className="border-r border-black"></div>
               <div className="flex items-center gap-1">
-              <img src={Avater} alt="" />
-              <ChevronDown />
-
+                <img src={Avater} alt="" />
+                <ChevronDown />
               </div>
-              
             </div>
           </div>
         </div>

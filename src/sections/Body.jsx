@@ -9,7 +9,7 @@ export default function Body() {
 
   return (
     <section className="px-4 sm:px-8 lg:px-16 py-4 mx-auto max-w-[1440px] bg-gray-50 lg:-mt-[120px]">
-      <div className="flex gap-4 sm:gap-10 border-b border-[#ACB2B0] cursor-pointer mb-6 lg:w-[900px]">
+      <div className="flex gap-4 sm:gap-10 border-b border-[#ACB2B0] cursor-pointer mb-6 lg:max-w-[900px]">
         <p
           className={activeTab === 'Problems' ? 'text-black font-bold border-b-2 border-black' : 'text-gray-500'}
           onClick={() => setActiveTab('Problems')}
@@ -29,6 +29,7 @@ export default function Body() {
           Ideas
         </p>
       </div>
+      
       <div className="flex flex-col lg:flex-row gap-10">
         {activeTab === 'Problems' && (
           <div className="flex flex-col lg:flex-row gap-10">
