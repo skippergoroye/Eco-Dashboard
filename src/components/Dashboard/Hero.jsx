@@ -1,7 +1,7 @@
 import React from 'react';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';
-import HeroImage from "../assets/hero-logo.svg";
+import HeroImage from "../../assets/hero-logo.svg";
 
 // Register necessary elements with Chart.js
 ChartJS.register(ArcElement, Tooltip, Legend);

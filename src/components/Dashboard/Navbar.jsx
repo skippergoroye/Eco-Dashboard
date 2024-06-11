@@ -1,6 +1,6 @@
-import NavLogo from "../assets/nav-logo.svg";
+import NavLogo from "../../assets/nav-logo.svg";
 import { ChevronDown } from "lucide-react";
-import Avater from "../assets/Avatar-Image.svg";
+import Avater from "../../assets/Avatar-Image.svg";
 
 export default function Navbar() {
   return (

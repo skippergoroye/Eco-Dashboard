@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import { CommunityCard } from "../components";
-import ListItem from "../components/ListItem";
-import { Community } from "../constants";
-import Globe from "../assets/globe.svg";
+import { CommunityCard,ListItem } from "../../components/Dashboard";
+import { Community } from "../../constants";
+import Globe from "../../assets/globe.svg";
 
 export default function Body() {
   const [activeTab, setActiveTab] = useState('Problems'); // Default active tab is 'Problems'

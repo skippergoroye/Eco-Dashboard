@@ -1,4 +1,4 @@
-import Check from "../assets/tick-circle.svg";
+import Check from "../../assets/tick-circle.svg";
 
 export default function ListItem({ children }) {
   return (

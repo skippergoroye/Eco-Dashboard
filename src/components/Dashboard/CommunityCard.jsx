@@ -17,7 +17,7 @@ export default function CommunityCard({
       <div>
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-10 border-b border-[#979797] pb-4">
           <div className="flex items-center gap-2">
-            <img src={imgUrl} alt="location svg" className="w-6 h-6" />
+            <img src={imgUrl} alt="location-svg" className="w-6 h-6" />
             <p className="text-sm sm:text-base text-[#263238]">{state}</p>
           </div>
           <div className="flex items-center gap-2 flex-1">
