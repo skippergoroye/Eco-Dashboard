@@ -30,7 +30,7 @@ export default function ProjectCard() {
             onClick={() => handleTabClick("project")}
             className={`cursor-pointer text-xl  ${activeTab === "project" ? "border-b-2 border-[#1DB559]" : ""}`}
           >
-            Project
+            Projects
           </p>
           <p
             onClick={() => handleTabClick("problems")}
