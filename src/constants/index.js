@@ -33,3 +33,31 @@ export const Community  = [
         goalLabel: "3: Good health and well being"
     }
 ]
+
+
+
+
+
+
+
+export const FooterCountry = [
+    {
+        country: "United Kingdom",
+        address: "65 Kingsway, Burnage,Manchester, M19 2LL"
+    },
+    {
+        country: "Nigeria",
+        address: "61 Adamo Close, Obamusa Avenue, Lekki, Lagos",
+        phone: "(+234) 0123456789"
+    }
+
+]
+
+
+
+
+export const footerHomeSocial = [
+    {
+        
+    }
+]
