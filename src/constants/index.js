@@ -43,21 +43,38 @@ export const Community  = [
 export const FooterCountry = [
     {
         country: "United Kingdom",
-        address: "65 Kingsway, Burnage,Manchester, M19 2LL"
+        address: "65 Kingsway, Burnage, Manchester, M19 2LL"
     },
     {
         country: "Nigeria",
         address: "61 Adamo Close, Obamusa Avenue, Lekki, Lagos",
         phone: "(+234) 0123456789"
     }
-
 ]
 
 
 
-
-export const footerHomeSocial = [
+export const FooterLinks = [
     {
-        
-    }
-]
+      links: [
+        { title: "Home", url: "/" },
+        { title: "The ECO", url: "/" },
+        { title: "PALs App", url: "/" },
+        { title: "Tech4Good", url: "/" },
+        { title: "Services", url: "/" },
+      ],
+    },
+    {
+      links: [
+        { title: "Facebook", url: "/" },
+        { title: "Twitter", url: "/" },
+        { title: "Linkedin", url: "/" },
+        { title: "Instagram", url: "/" },
+        { title: "Send a mail", url: "/" },
+      ],
+    },
+  ];
+  
+
+
+  
