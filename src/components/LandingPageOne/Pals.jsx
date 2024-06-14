@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from  "../../components/LandingPageOne"
+import pals from "../../assets/pals.svg"
 
 export default function Pals() {
   return (

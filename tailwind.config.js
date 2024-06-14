@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "pals": "url('src/assets/pals.svg')",
+        "pals": "url('/src/assets/pals.svg')",
       }
     },
   },
