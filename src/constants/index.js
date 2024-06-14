@@ -15,6 +15,9 @@ import CardFifteen from "../assets/card-fifteen.svg"
 import CardSixteen from "../assets/card-sistheen.svg"
 import CardSeventh from "../assets/card-sevetheen.svg"
 
+import Location from "../assets/Location.svg"
+import More from "../assets/more.svg"
+
 
 
 
@@ -22,8 +25,8 @@ import CardSeventh from "../assets/card-sevetheen.svg"
 export const Community  = [
     {
         state: "Ikeja,Lagos",
-        imgUrl: "src/assets/Location.svg",
-        moreUrl: "src/assets/more.svg",
+        imgUrl: Location,
+        moreUrl: More,
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit nostru. Exercitation veniam consequat sunt nostru.Velit officia mollit consequat duis enim velit mollit.",
         label: "Eco Category:",
         value: "Community",
@@ -33,8 +36,8 @@ export const Community  = [
     },
     {
         state: "Ikeja,Lagos",
-        imgUrl: "src/assets/Location.svg",
-        moreUrl: "src/assets/more.svg",
+        imgUrl: Location,
+        moreUrl: More,
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit nostru. Exercitation veniam consequat sunt nostru.Velit officia mollit consequat duis enim velit mollit.",
         label: "Eco Category:",
         value: "Community",
@@ -44,8 +47,8 @@ export const Community  = [
     },
     {
         state: "Ikeja,Lagos",
-        imgUrl: "src/assets/Location.svg",
-        moreUrl: "src/assets/more.svg",
+        imgUrl: Location,
+        moreUrl: More,
         description: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit nostru. Exercitation veniam consequat sunt nostru.Velit officia mollit consequat duis enim velit mollit.",
         label: "Eco Category:",
         value: "Community",
