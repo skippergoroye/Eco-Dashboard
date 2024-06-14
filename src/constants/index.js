@@ -1,3 +1,24 @@
+import CardOne from "../assets/card-one.svg"
+import CardTwo from "../assets/card-two.svg"
+import CardThree from "../assets/card-three.svg"
+import CardFour from "../assets/card-four.svg"
+import CardFive from "../assets/card-five.svg"
+import CardSix from "../assets/card-six.svg"
+import CardSeven from "../assets/card-seven.svg"
+import CardEight from "../assets/card-eight.svg"
+import CardNine from "../assets/card-nine.svg"
+import CardTen from "../assets/card-ten.svg"
+import CardEleven from "../assets/card-eleven.svg"
+import CardTwelve from "../assets/card-twelve.svg"
+import CardThirtheen from "../assets/card-thirteen.svg"
+import CardFifteen from "../assets/card-fifteen.svg"
+import CardSixteen from "../assets/card-sistheen.svg"
+import CardSeventh from "../assets/card-sevetheen.svg"
+
+
+
+
+
 export const Community  = [
     {
         state: "Ikeja,Lagos",
@@ -74,6 +95,230 @@ export const FooterLinks = [
       ],
     },
   ];
+
+
+
+
+
+export const Companies  = [
+  {
+    company: "All",
+  },
+  {
+    company: "Fintech",
+  },
+  {
+    company: "Agrotech",
+  },
+  {
+    company: "Health Tech",
+  },
+  {
+    company: "AI (Artificial Intelligence)",
+  },
+  {
+    company: "Edutech",
+  },
+  {
+    company: "Cleantech",
+  },
+  {
+    company: "Biotech",
+  },
+  {
+    company: "Govtech",
+  },
+  {
+    company: "Insurtech",
+  },
+  {
+    company: "Martech",
+  },
+  {
+    company: "Proptech",
+  },
+ 
+]
+
+
+
+
+export const CategoryCardItems = [
+  {
+    imgUrl: CardOne,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance"
+  },
+  {
+    imgUrl: CardTwo,
+    title: "Textlify",
+    description: "Send and receive messages data free",
+    category: "Communication"
+  },
+  {
+    imgUrl: CardThree,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Productivity"
+  },
+  {
+    imgUrl: CardFour,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Productivity"
+  },
+  {
+    imgUrl: CardFive,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardSix,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardSeven,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardEight,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardNine,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardTen,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardEleven,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardTwelve,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardThirtheen,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardFifteen,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardSixteen,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardSeventh,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardFive,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardSix,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardSeven,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardEight,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardThirtheen,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardFifteen,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardSixteen,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardSeventh,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardThree,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Productivity"
+  },
+  {
+    imgUrl: CardThirtheen,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+  {
+    imgUrl: CardFour,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Productivity"
+  },
+  
+  {
+    imgUrl: CardFifteen,
+    title: "Sendlify",
+    description: "Send and receive money like texts",
+    category: "Finance "
+  },
+
+
+
+
+
+]
   
 
 
