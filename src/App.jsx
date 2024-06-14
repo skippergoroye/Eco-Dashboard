@@ -17,9 +17,9 @@ import ProjectLayout from "./layout/ProjectLayout";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
-      <Route path="/"  element={<DashboardLayout />} />
+      <Route path="/"  element={<LandingPageOne />} />
+      <Route path="dashboard"  element={<DashboardLayout />} />
       <Route path="project"  element={<ProjectLayout />} />
-      <Route path="landingpageone"  element={<LandingPageOne />} />
     </Route>
    
   )
