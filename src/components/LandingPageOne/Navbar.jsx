@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="flex items-center gap-1 lg:gap-4 shadow-lg px-2 lg:px-4 rounded-xl">
           <img src={NavLogo} alt="header" />
 
-          <div className="hidden sm:flex">
+          <div className="hidden lg:flex">
             <div className="flex">
               <p className="text-base lg:text-md text-[#ACB2B0]">Eco</p>
               <span>
